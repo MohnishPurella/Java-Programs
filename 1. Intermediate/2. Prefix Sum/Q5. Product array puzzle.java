@@ -15,6 +15,6 @@ public class Q5 {
         for(int i=0;i<n;i++){                      
             outArr[i]=prefProd[i]*suffProd[i];
         }
-        return outArr;
+        return outArr; 
     }
 }
