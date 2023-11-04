@@ -39,7 +39,7 @@ public class Q6 {
     }
 
     private static int[][] solve(int[][] A) {
-        int transposeMatrix[][] = new int[A.length][A[0].length];
+        int transposeMatrix[][] = new int[A[0].length][A.length];
         for(int i=0 ;i<transposeMatrix.length;i++){
             for (int j=0 ; j<transposeMatrix[0].length;j++){
                 transposeMatrix[i][j]=A[j][i];
