@@ -26,7 +26,7 @@ public class Q2NobleInteger {
                 moreCount = n-1-i;
             }
             if(moreCount == A.get(i)){
-                return 1;
+                return 1; 
             }
         }
         return -1;

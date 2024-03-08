@@ -26,7 +26,7 @@ public class Q3FactorsSort {
                 } else if (f1 < f2) {
                     return -1;
                 }
-                return o1-o2;
+                return o1-o2; 
             }
         });
         return a;

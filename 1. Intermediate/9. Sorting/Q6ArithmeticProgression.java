@@ -3,7 +3,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.Scanner;
 
-public class Q6ArithmeticProgression {
+public class Q6ArithmeticProgression { 
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
         int n = scn.nextInt();

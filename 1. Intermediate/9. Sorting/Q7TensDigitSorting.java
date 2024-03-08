@@ -20,7 +20,7 @@ public class Q7TensDigitSorting {
             @Override
             public int compare(Integer o1, Integer o2) {
                 int num1TensValue = getsTensPlace(o1);
-                int num2TensValue = getsTensPlace(o2); 
+                int num2TensValue = getsTensPlace(o2);  
                 if(num1TensValue<num2TensValue){
                     return -1;
                 }else if(num1TensValue==num2TensValue){
