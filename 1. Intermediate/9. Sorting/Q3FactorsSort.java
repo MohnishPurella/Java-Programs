@@ -19,20 +19,14 @@ public class Q3FactorsSort {
         Collections.sort(a, new Comparator<Integer>() {
             @Override
             public int compare(Integer o1, Integer o2) {
-                int num1Factor = factorCount(o1);
-                int num2Factor = factorCount(o2);
-                if(num1Factor>num2Factor){
+                int f1 = factorial(o1);
+                int f2 = factorial(o2);
+                if (f1 > f2) {
                     return 1;
-                }else if(num1Factor == num2Factor){
-                    if(o1>o2){
-                        return 1;
-                    }else if(o1<o2){
-                        return -1;
-                    }else{
-                        return 0;
-                    }
+                } else if (f1 < f2) {
+                    return -1;
                 }
-                return -1;
+                return o1-o2;
             }
         });
         return a;
